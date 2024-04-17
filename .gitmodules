@@ -55,9 +55,6 @@
 [submodule "Bliss"]
 	path = Bliss
 	url = ../../OpenEmu/Bliss-Core.git
-[submodule "Potator-Core"]
-	path = Potator-Core
-	url = ../../OpenEmu/Potator-Core.git
 [submodule "PokeMini"]
 	path = PokeMini
 	url = ../../OpenEmu/PokeMini-Core
@@ -88,3 +85,6 @@
 [submodule "DeSmuME"]
 	path = DeSmuME
 	url = ../../OpenEmu/DeSmuME-Core.git
+[submodule "dolphin"]
+	path = dolphin
+	url = ./dolphin
