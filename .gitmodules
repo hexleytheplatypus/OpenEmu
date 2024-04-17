@@ -90,7 +90,10 @@
 	url = ../../OpenEmu/dolphin.git
 [submodule "UME"]
 	path = UME
-	url = ../../OpenEmu/UME.git
+	url = ../../OpenEmu/UME-Core.git
 [submodule "PPSSPP"]
 	path = PPSSPP
-	url = ../../OpenEmu/PPSSPP.git
+	url = ../../OpenEmu/PPSSPP-Core.git
+[submodule "Potator"]
+	path = Potator
+	url = ../../OpenEmu/Potator-Core.git
