@@ -87,4 +87,10 @@
 	url = ../../OpenEmu/DeSmuME-Core.git
 [submodule "dolphin"]
 	path = dolphin
-	url = ./dolphin
+	url = ../../OpenEmu/dolphin.git
+[submodule "UME"]
+	path = UME
+	url = ../../OpenEmu/UME.git
+[submodule "PPSSPP"]
+	path = PPSSPP
+	url = ../../OpenEmu/PPSSPP.git
