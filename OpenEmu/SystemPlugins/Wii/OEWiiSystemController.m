@@ -34,7 +34,11 @@
 - (OEFileSupport)canHandleFile:(__kindof OEFile *)file
 {
         // Handle wbfs file and return early
-        if([file.fileExtension isEqualToString:@"wbfs"] || [file.fileExtension isEqualToString:@"wad"] || [file.fileExtension isEqualToString:@"rvz"])
+        if([file.fileExtension isEqualToString:@"wbfs"])
+            return OEFileSupportYes;
+
+        // Handle wad file and return early
+        if([file.fileExtension isEqualToString:@"wad"])
             return OEFileSupportYes;
 
     NSRange dataRange = NSMakeRange(0x018, 4);

@@ -41,10 +41,10 @@ typedef enum _OEWiiButton
     OEWiiMoteButtonPlus,
     OEWiiMoteButtonMinus,
     OEWiiMoteButtonHome,
-    OEWiiMoteTiltForward,
-    OEWiiMoteTiltBackward,
     OEWiiMoteTiltLeft,
     OEWiiMoteTiltRight,
+    OEWiiMoteTiltForward,
+    OEWiiMoteTiltBackward,
     OEWiiMoteShake,
     OEWiiMoteSwingUp,
     OEWiiMoteSwingDown,
@@ -57,8 +57,7 @@ typedef enum _OEWiiButton
     OEWiiNunchukAnalogLeft,
     OEWiiNunchukAnalogRight,
     OEWiiNunchukButtonC,
-    OEWiiNunchukButtonZ,
-    OEWiiNunchukShake,
+    OEWiiNunchuckButtonZ,
     OEWiiClassicButtonUp,
     OEWiiClassicButtonDown,
     OEWiiClassicButtonLeft,
@@ -83,9 +82,9 @@ typedef enum _OEWiiButton
     OEWiiClassicButtonSelect,
     OEWiiClassicButtonHome,
     OEWiiButtonCount,
-    OEWiimoteChangeExtension,
-    OEWiimoteSideways,
-    OEWiimoteUpright
+    OEWiiChangeExtension = 51,
+    OEWiiSideways
+
 } OEWiiButton;
 
 
