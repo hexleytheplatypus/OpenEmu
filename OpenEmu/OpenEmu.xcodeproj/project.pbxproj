@@ -630,7 +630,6 @@
 		C217782D2BD1452A00A6355F /* Controller-Mappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = C21778212BD1452A00A6355F /* Controller-Mappings.plist */; };
 		C217782E2BD1452A00A6355F /* Controller-Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = C21778222BD1452A00A6355F /* Controller-Preferences.plist */; };
 		C217782F2BD1452A00A6355F /* Controller-Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = C21778222BD1452A00A6355F /* Controller-Preferences.plist */; };
-		C21778302BD1452A00A6355F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21778232BD1452A00A6355F /* Images.xcassets */; };
 		C21778312BD1452A00A6355F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21778232BD1452A00A6355F /* Images.xcassets */; };
 		C21778322BD1452A00A6355F /* Keyboard-Mappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = C21778242BD1452A00A6355F /* Keyboard-Mappings.plist */; };
 		C21778332BD1452A00A6355F /* Keyboard-Mappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = C21778242BD1452A00A6355F /* Keyboard-Mappings.plist */; };
@@ -638,6 +637,7 @@
 		C21778352BD1452A00A6355F /* OEWiiSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21778262BD1452A00A6355F /* OEWiiSystemController.m */; };
 		C21778362BD1452A00A6355F /* OEWiiSystemResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = C21778282BD1452A00A6355F /* OEWiiSystemResponder.m */; };
 		C21778372BD1452A00A6355F /* OEWiiSystemResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = C21778282BD1452A00A6355F /* OEWiiSystemResponder.m */; };
+		C21778442BD1471100A6355F /* Wii.oesystemplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = C217781F2BD1442400A6355F /* Wii.oesystemplugin */; };
 		C6252DAC14E752E300350A13 /* Controller-Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6252DAA14E752E300350A13 /* Controller-Preferences.plist */; };
 		C6252DAE14E7556800350A13 /* Controller-Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6252DAD14E7556800350A13 /* Controller-Preferences.plist */; };
 		C6252DB214E7566600350A13 /* Controller-Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6252DB114E7566600350A13 /* Controller-Preferences.plist */; };
@@ -1275,6 +1275,7 @@
 				94CE3FB218DE92970079CC16 /* 3DO.oesystemplugin in CopyFiles */,
 				FE6310A1187F099800D8AE07 /* MSX.oesystemplugin in CopyFiles */,
 				94EBBD31183F4DB000743756 /* Arcade.oesystemplugin in CopyFiles */,
+				C21778442BD1471100A6355F /* Wii.oesystemplugin in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5717,7 +5718,6 @@
 				83FE966419685F8F00DD8DB9 /* SetupAssistant.xib in Resources */,
 				83C748CC196DF34D0090BC91 /* HomebrewViewController.xib in Resources */,
 				556CEBF01BCE173B00F00EAA /* Graphics.xcassets in Resources */,
-				C21778302BD1452A00A6355F /* Images.xcassets in Resources */,
 				051DDCB923E5E50100325147 /* AvailableLibrariesCollectionViewItem.xib in Resources */,
 				8FD78305243A8AD300861B7A /* Debug.strings in Resources */,
 				832D29431451ACF200BDF950 /* MainWindow.xib in Resources */,
