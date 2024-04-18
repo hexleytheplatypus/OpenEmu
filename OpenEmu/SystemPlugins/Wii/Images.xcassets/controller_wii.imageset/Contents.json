@@ -1,12 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "controller_gc.png",
+      "filename" : "controller_wii.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "controller_gc@2x.png",
+      "filename" : "controller_wii@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
