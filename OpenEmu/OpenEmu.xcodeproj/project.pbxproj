@@ -625,12 +625,7 @@
 		94DEA000171896AE00073397 /* NDS.oesystemplugin in Copy System Plugins to App Plugins */ = {isa = PBXBuildFile; fileRef = 94D7E8C915073BA000FBDD85 /* NDS.oesystemplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		94E6C304166DB15900082F27 /* Controller-Mappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94E6C303166DB15900082F27 /* Controller-Mappings.plist */; };
 		94EBBD31183F4DB000743756 /* Arcade.oesystemplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 945E42FB1517F2B500057D08 /* Arcade.oesystemplugin */; };
-		C21778142BD1442400A6355F /* OEWSSystemResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A2255517075DDC00098DA0 /* OEWSSystemResponder.m */; };
 		C21778162BD1442400A6355F /* OpenEmuSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D120C417112E1300E868A8 /* OpenEmuSystem.framework */; };
-		C21778182BD1442400A6355F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BE815E2542A54D00E3841E /* Images.xcassets */; };
-		C21778192BD1442400A6355F /* Controller-Mappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94A2255A17075DF600098DA0 /* Controller-Mappings.plist */; };
-		C217781A2BD1442400A6355F /* Controller-Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94A2255B17075DF600098DA0 /* Controller-Preferences.plist */; };
-		C217781B2BD1442400A6355F /* Keyboard-Mappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94A2255C17075DF600098DA0 /* Keyboard-Mappings.plist */; };
 		C217782C2BD1452A00A6355F /* Controller-Mappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = C21778212BD1452A00A6355F /* Controller-Mappings.plist */; };
 		C217782D2BD1452A00A6355F /* Controller-Mappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = C21778212BD1452A00A6355F /* Controller-Mappings.plist */; };
 		C217782E2BD1452A00A6355F /* Controller-Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = C21778222BD1452A00A6355F /* Controller-Preferences.plist */; };
@@ -6038,14 +6033,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C21778182BD1442400A6355F /* Images.xcassets in Resources */,
 				C217782D2BD1452A00A6355F /* Controller-Mappings.plist in Resources */,
 				C21778312BD1452A00A6355F /* Images.xcassets in Resources */,
-				C21778192BD1442400A6355F /* Controller-Mappings.plist in Resources */,
 				C217782F2BD1452A00A6355F /* Controller-Preferences.plist in Resources */,
-				C217781A2BD1442400A6355F /* Controller-Preferences.plist in Resources */,
 				C21778332BD1452A00A6355F /* Keyboard-Mappings.plist in Resources */,
-				C217781B2BD1442400A6355F /* Keyboard-Mappings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6829,7 +6820,6 @@
 			files = (
 				C21778352BD1452A00A6355F /* OEWiiSystemController.m in Sources */,
 				C21778372BD1452A00A6355F /* OEWiiSystemResponder.m in Sources */,
-				C21778142BD1442400A6355F /* OEWSSystemResponder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
