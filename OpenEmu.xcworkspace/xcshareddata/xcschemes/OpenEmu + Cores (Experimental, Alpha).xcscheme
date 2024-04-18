@@ -81,6 +81,76 @@
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D0AADE271763813100759E26"
+               BuildableName = "Build &amp; Install MAME"
+               BlueprintName = "Build &amp; Install MAME"
+               ReferencedContainer = "container:UME/MAME.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8CBB42FF178C399D00FA270D"
+               BuildableName = "Build &amp; Install PPSSPP"
+               BlueprintName = "Build &amp; Install PPSSPP"
+               ReferencedContainer = "container:PPSSPP/PPSSPP.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "837965451A616BFD00A8DE5C"
+               BuildableName = "Build &amp; Install Potator"
+               BlueprintName = "Build &amp; Install Potator"
+               ReferencedContainer = "container:Potator/Potator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3D2091111183B8E900BEAA42"
+               BuildableName = "Build &amp; Install Mupen64Plus"
+               BlueprintName = "Build &amp; Install Mupen64Plus"
+               ReferencedContainer = "container:Mupen64Plus/Mupen64Plus.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "82D815AB0F1D882B00EF8CF5"
+               BuildableName = "Build &amp; Install JollyCV"
+               BlueprintName = "Build &amp; Install JollyCV"
+               ReferencedContainer = "container:JollyCV/JollyCV.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
@@ -193,48 +263,6 @@
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0AADE271763813100759E26"
-               BuildableName = "Build &amp; Install MAME"
-               BlueprintName = "Build &amp; Install MAME"
-               ReferencedContainer = "container:UME/MAME.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D2091111183B8E900BEAA42"
-               BuildableName = "Build &amp; Install Mupen64Plus"
-               BlueprintName = "Build &amp; Install Mupen64Plus"
-               ReferencedContainer = "container:Mupen64Plus/Mupen64Plus.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8CBB42FF178C399D00FA270D"
-               BuildableName = "Build &amp; Install PPSSPP"
-               BlueprintName = "Build &amp; Install PPSSPP"
-               ReferencedContainer = "container:PPSSPP/PPSSPP.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
@@ -291,11 +319,11 @@
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FED62A59187BE23C00A88500"
@@ -368,20 +396,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "837965451A616BFD00A8DE5C"
-               BuildableName = "Build &amp; Install Potator"
-               BlueprintName = "Build &amp; Install Potator"
-               ReferencedContainer = "container:Potator-Core/Potator.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "081A45EE1B95639F00565444"
                BuildableName = "Build and Install PokeMini"
                BlueprintName = "Build and Install PokeMini"
@@ -414,20 +428,6 @@
                BuildableName = "Build &amp; Install BSNES"
                BlueprintName = "Build &amp; Install BSNES"
                ReferencedContainer = "container:BSNES/BSNES.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "82D815AB0F1D882B00EF8CF5"
-               BuildableName = "Build &amp; Install JollyCV"
-               BlueprintName = "Build &amp; Install JollyCV"
-               ReferencedContainer = "container:JollyCV/JollyCV.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
