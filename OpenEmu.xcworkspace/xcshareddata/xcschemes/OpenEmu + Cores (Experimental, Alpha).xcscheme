@@ -67,6 +67,20 @@
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FED62A59187BE23C00A88500"
+               BuildableName = "Build &amp; Install blueMSX"
+               BlueprintName = "Build &amp; Install blueMSX"
+               ReferencedContainer = "container:blueMSX/blueMSX.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
@@ -288,20 +302,6 @@
                BuildableName = "Build and Install VecXGL"
                BlueprintName = "Build and Install VecXGL"
                ReferencedContainer = "container:VecXGL/VecXGL.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FED62A59187BE23C00A88500"
-               BuildableName = "Build &amp; Install blueMSX"
-               BlueprintName = "Build &amp; Install blueMSX"
-               ReferencedContainer = "container:blueMSX/blueMSX.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
